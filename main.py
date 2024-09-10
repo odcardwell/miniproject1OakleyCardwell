@@ -12,7 +12,7 @@ if not os.path.exists('charts'):
     os.makedirs('charts')
 
 # List of your favorite stock tickers
-tickers = ['AAPL', 'GOOGL', 'AMZN', 'MSFT', 'NVDA']
+tickers = ['AAPL', 'WFC', 'AMD', 'INTC', 'NVDA']
 
 # Get data for the last 1 month for each ticker and slice to last 10 trading days
 stock_data = {}
